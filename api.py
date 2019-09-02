@@ -30,10 +30,11 @@ def get_cards():
     return Response(
         json.dumps(cards),
         mimetype="application/json",
-        status=200
+        status=200,
+        headers={"Access-Control-Allow-Origin": "*"}
     )
 
 
 if __name__ == "__main__":
     cards = read_cards_file("cards.json")
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5000)
