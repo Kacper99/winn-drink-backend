@@ -9,10 +9,18 @@
   },
   {
     "type": "VIRUS",
-    "text": "$NAME, you are the black hole! Each time someone has to drink, you drink a sip for them"
+    "text": "$NAME, you are the black hole! Each time someone has to drink, you drink a sip for them",
+    "followUp": {
+      "type": "VIRUS",
+      "text": "$NAME, you are no longer the black hole"
+    }
   },
   {
     "type": "CHALLENGE",
     "text": "$NAME has control of $NAME's phone for 3 rounds"
+  },
+  {
+    "type": "GAME",
+    "text": "'Electronic devices', first to run out of ideas drinks 4 times. $NAME, you start"
   }
 ]
