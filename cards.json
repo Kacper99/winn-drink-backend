@@ -10,5 +10,9 @@
   {
     "type": "VIRUS",
     "text": "$NAME, you are the black hole! Each time someone has to drink, you drink a sip for them"
+  },
+  {
+    "type": "CHALLENGE",
+    "text": "$NAME has control of $NAME's phone for 3 rounds"
   }
 ]
