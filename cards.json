@@ -16,11 +16,43 @@
     }
   },
   {
-    "type": "CHALLENGE",
-    "text": "$NAME has control of $NAME's phone for 3 rounds"
+    "type": "VIRUS",
+    "text": "$NAME has control of $NAME's phone until further notice",
+    "followUp": {
+      "type": "VIRUS",
+      "text": "$NAME no longer has control of $NAME's phone"
+    }
   },
   {
     "type": "GAME",
     "text": "'Electronic devices', first to run out of ideas drinks 4 times. $NAME, you start"
+  },
+  {
+    "type": "GAME",
+    "text": "Each player can give out as many sips as they have first names. $NAME, you start"
+  },
+  {
+    "type": "BOTTOMS UP",
+    "text": "Chug! First person to finish their drink gets to fill up someone's glass and make them down it"
+  },
+  {
+    "type": "VIRUS",
+    "text": "$NAME, start at $NAME until told otherwise",
+    "followUp": {
+      "type": "VIRUS",
+      "text": "$NAME no longer has to stare at $NAME"
+    }
+  },
+  {
+    "type": "CHALLENGE",
+    "text": "$NAME, send 'I love you' to a person chosen by $NAME, or drink 5 times"
+  },
+  {
+    "type": "QUESTION",
+    "text": "Anyone who loved in more than 3 towns drink 2 times"
+  },
+  {
+    "type": "CHALLENGE",
+    "text": "$NAME, you have 5 minutes to finish your drink"
   }
 ]
