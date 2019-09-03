@@ -37,7 +37,7 @@
   },
   {
     "type": "VIRUS",
-    "text": "$NAME, start at $NAME until told otherwise",
+    "text": "$NAME, stare at $NAME until told otherwise",
     "followUp": {
       "type": "VIRUS",
       "text": "$NAME no longer has to stare at $NAME"
@@ -49,7 +49,7 @@
   },
   {
     "type": "QUESTION",
-    "text": "Anyone who loved in more than 3 towns drink 2 times"
+    "text": "Anyone who lived in more than 3 towns drink 2 times"
   },
   {
     "type": "CHALLENGE",
