@@ -54,5 +54,45 @@
   {
     "type": "CHALLENGE",
     "text": "$NAME, you have 5 minutes to finish your drink"
+  },
+  {
+    "type": "CHALLENGE",
+    "text": "Truth or dare with the person to your right, $NAME starts"
+  },
+  {
+    "type": "CHALLENGE",
+    "text": "The first person to touch $NAME's feet gives out 3 sips"
+  },
+  {
+    "type": "QUESTION",
+    "text": "If you've repeated a year in school drink 4 times"
+  },
+  {
+    "type": "QUESTION",
+    "text": "If you've been on a gap year drink twice"
+  },
+  {
+    "type": "CHALLENGE",
+    "text": "The person to left of $NAME drinks 3 times"
+  },
+  {
+    "type": "QUESTION",
+    "text": "$NAME ask a question out loud to the group, first person to answer gives out 3 sips"
+  },
+  {
+    "type": "CHALLENGE",
+    "text": "If you own an Android device drink 3 times"
+  },
+  {
+    "type": "CHALLENGE",
+    "text": "If you own an Apple device drink 3 times"
+  },
+  {
+    "type": "VIRUS",
+    "text": "If you say either yes or no, you have to take 2 sips",
+    "followUp": {
+      "type": "VIRUS",
+      "text": "You can say yes and no again"
+    }
   }
 ]
